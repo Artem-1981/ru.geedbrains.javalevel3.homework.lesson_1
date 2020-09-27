@@ -1,5 +1,5 @@
 package ru.geedrains.javalevel3.homework.lesson_1;
-
+//
 import java.util.ArrayList;
 
 public class Box<T extends Fruit>{
@@ -13,17 +13,17 @@ public class Box<T extends Fruit>{
         this.mybox.add(obj);
     }
 
-     public float getWeigth() {
+    public float getWeigth() {
         float sum=0.0f;
         for (int i=0;i<mybox.size();i++)
-         sum+=mybox.get(i).getWeight();
+            sum+=mybox.get(i).getWeight();
         return sum;
 
-     }
+    }
 
-     public boolean compare (Box<T> another) {
+    public boolean compare (Box<T> another) {
         return this.getWeigth()==another.getWeigth();
-     }
+    }
 
     public boolean pourover(Box <T> another) {
         boolean fl;

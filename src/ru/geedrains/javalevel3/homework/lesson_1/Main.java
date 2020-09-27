@@ -25,7 +25,7 @@ public class Main {
         System.out.println(Arrays.toString(mymass));
 
         ArrayList<Integer> mylist =toArrayList(mymass);
-
+       //
         Apple a1=new Apple();
         Apple a2=new Apple();
         Apple a3=new Apple();
